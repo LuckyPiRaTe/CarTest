@@ -24,10 +24,11 @@ public class Border : MonoBehaviour
         
     }
     void OnTriggerExit(Collider other)
-    {
+    {//фу, проверка по тагам :)
         if (other.tag == "Block"){
             score += 1;
             //Destroy(other.gameObject);
         }
     }
 }
+//нашиши мне Famtosha#8035
